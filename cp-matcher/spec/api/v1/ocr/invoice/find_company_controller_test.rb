@@ -1,7 +1,7 @@
 require "rails_helper"
 
-RSpec.describe "ocr company name finder api", :type => :request do
-  let(:default_path) { '/api/v1/ocr/invoice/find_company' }
+RSpec.describe "tesseract company name finder api", :type => :request do
+  let(:default_path) { '/api/v1/tesseract/invoice/find_company' }
 
   it "should return status code 200 when company name was found" do
     params = { "images" => Rack::Test::UploadedFile.new('data/invoice_match.png', 'application/png', true) }

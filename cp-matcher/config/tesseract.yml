@@ -1,6 +1,6 @@
 default: &default
-  host: <%= ENV['OCR_PORT_5000_TCP_ADDR'] %>
-  port: <%= ENV['OCR_PORT_5000_TCP_PORT'] %>
+  host: <%= ENV['TESSERACT_PORT_5000_TCP_ADDR'] %>
+  port: <%= ENV['TESSERACT_PORT_5000_TCP_PORT'] %>
 
 development:
   <<: *default
