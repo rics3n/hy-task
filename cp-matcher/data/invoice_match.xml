@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+  <Metadata>
+    <Creator>tesseract-recognize_v2020.01.10 tesseract_v4.0.0-beta.1 lang=eng (PageXML 2019.08.12)</Creator>
+    <Created>2020-04-05T13:32:40Z</Created>
+    <LastChange>2020-04-05T13:32:40Z</LastChange>
+    <Process started="2020-04-05T13:32:40Z" time="0.876864" tool="tesseract-recognize_v2020.01.10 tesseract_v4.0.0-beta.1 lang=eng"/>
+  </Metadata>
+  <Page imageFilename="invoice_google.png" imageHeight="1602" imageWidth="1478">
+    <TextRegion id="b1">
+      <Coords points="1040,127 1255,127 1255,170 1040,170"/>
+      <TextLine id="b1_p1_l1">
+        <Coords points="1040,127 1255,127 1255,170 1040,170"/>
+        <Baseline points="1040,160 1255,160"/>
+        <TextEquiv conf="0.925518">
+          <Unicode>Rechnung</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b2">
+      <Coords points="955,182 1256,182 1256,278 955,278"/>
+      <TextLine id="b2_p1_l1">
+        <Coords points="993,182 1254,182 1254,210 993,210"/>
+        <Baseline points="993,207 1254,207"/>
+        <TextEquiv conf="0.657893">
+          <Unicode>Rechnungsnr.: RE043</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b2_p1_l2">
+        <Coords points="1040,219 1255,219 1255,244 1040,244"/>
+        <Baseline points="1040,240 1255,240"/>
+        <TextEquiv conf="0.925794">
+          <Unicode>Kundennr.: 10008</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b2_p1_l3">
+        <Coords points="955,257 1256,257 1256,278 955,278"/>
+        <Baseline points="955,278 1256,278"/>
+        <TextEquiv conf="0.923094">
+          <Unicode>Kunde: VND-GOOGLE</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b3">
+      <Coords points="733,294 1255,294 1255,360 733,360"/>
+      <TextLine id="b3_p1_l1">
+        <Coords points="886.87,295 1254.87,293 1255.02,321 887.022,323"/>
+        <Baseline points="887,319 1255,317"/>
+        <TextEquiv conf="0.945023">
+          <Unicode>Austellungsdatum: 19.12.2019</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b3_p1_l2">
+        <Coords points="733,332 1255,332 1255,360 733,360"/>
+        <Baseline points="733,353 1255,353"/>
+        <TextEquiv conf="0.931699">
+          <Unicode>Leistungszeitraum:15.11.2019 - 19.12.2019</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b4">
+      <Coords points="219,519 992,519 992,543 219,543"/>
+      <TextLine id="b4_p1_l1">
+        <Coords points="219,519 992,519 992,543 219,543"/>
+        <Baseline points="219,540 992,540"/>
+        <TextEquiv conf="0.940728">
+          <Unicode>rethinkIT, Inhaber: Rico Nuguid, Lychener Str. 20, 10437 Berlin</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b5">
+      <Coords points="221,594 623,594 623,622 221,622"/>
+      <TextLine id="b5_p1_l1">
+        <Coords points="221,594 623,594 623,622 221,622"/>
+        <Baseline points="221,615 623,615"/>
+        <TextEquiv conf="0.951733">
+          <Unicode>Sehr geehrter Damen und Herren,</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b6">
+      <Coords points="219,669 1109,669 1109,697 219,697"/>
+      <TextLine id="b6_p1_l1">
+        <Coords points="219,669 1109,669 1109,697 219,697"/>
+        <Baseline points="219,690 1109,690"/>
+        <TextEquiv conf="0.930234">
+          <Unicode>meine Dienstleistung fiir die IT-Beratung stelle ich wie folgt in Rechnung:</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b7">
+      <Coords points="232,796 1190,796 1190,939 232,939"/>
+      <TextLine id="b7_p1_l1">
+        <Coords points="232,796 1190,796 1190,824 232,824"/>
+        <Baseline points="232,817 1190,817"/>
+        <TextEquiv conf="0.892712">
+          <Unicode>Pos. Artikel/Leistung Tage Einzel € Gesamt €</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b7_p1_l2">
+        <Coords points="235,853 1189,853 1189,881 235,881"/>
+        <Baseline points="235,874 1189,874"/>
+        <TextEquiv conf="0.934715">
+          <Unicode>1 IT-Beratung 2 950,00 € 1900,00 €</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b7_p1_l3">
+        <Coords points="232,911 1182,911 1182,939 232,939"/>
+        <Baseline points="232,932 1182,932"/>
+        <TextEquiv conf="0.902824">
+          <Unicode>Gesamtbetrag 1900,00€</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b8">
+      <Coords points="219,1075 1248,1075 1248,1140 219,1140"/>
+      <TextLine id="b8_p1_l1">
+        <Coords points="219,1075 1248,1075 1248,1103 219,1103"/>
+        <Baseline points="219,1096 1248,1096"/>
+        <TextEquiv conf="0.928167">
+          <Unicode>Bitte tiberweisen Sie den ausgewiesenen Betrag unter Angabe der Rechnungsnummer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b8_p1_l2">
+        <Coords points="220,1112 542,1112 542,1140 220,1140"/>
+        <Baseline points="220,1133 542,1133"/>
+        <TextEquiv conf="0.948388">
+          <Unicode>auf das angegebene Konto.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="b9">
+      <Coords points="219,1180 671,1180 671,1201 219,1201"/>
+      <TextLine id="b9_p1_l1">
+        <Coords points="219,1180 671,1180 671,1201 219,1201"/>
+        <Baseline points="219,1201 671,1201"/>
+        <TextEquiv conf="0.96568">
+          <Unicode>Vielen Dank fiir die Zusammenarbeit.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>
