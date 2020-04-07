@@ -114,13 +114,13 @@ For api load testing I would use [k6](https://k6.io/) to get a better understand
 
 ## Monitoring
 
-### Cloud && Container Monitoring
+### Cloud & Container Monitoring
 
 All major cloud providers offer monitoring for kubernetes. The functionality is very dependant on the cloud provider itself. To standardize the monitoring experience with much more control I would use in a bigger project prometheus in connection with alert manger and grafana. Starting with a default set of metrics like [kube-prometheus](https://github.com/coreos/kube-prometheus) is a good starting point and is mostely suffecient for most clusters.
 
 ### Service Monitoring
 
-The service cp-matcher should be monitored with application metrics like Response Time, Error Rate, Time spend in DB, Time spend in tesseract service, success rate of company identification, documents with no company found, usage over time, errors, . From these metrics both the technical functionality can be evaluated as well as the use for the service to customers. 
+The service cp-matcher should be monitored with application metrics like Response Time, Error Rate, Time spend in DB, Time spend in tesseract service, success rate of company identification, documents with no company found, usage over time, errors. From these metrics both the technical functionality can be evaluated as well as the usage of the service by customers. 
 
 ## Security
 
