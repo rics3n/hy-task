@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+mkdir -p /infra/.user
+
+echo "rics3n:x:$(id -u):$(id -g):Infra User:/infra/.user:/bin/sh" > /tmp/passwd
+
+export LD_PRELOAD=libnss_wrapper.so
+export NSS_WRAPPER_PASSWD=/tmp/passwd
+export NSS_WRAPPER_GROUP=/etc/group
+
+exec "$@"
