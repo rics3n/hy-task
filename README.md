@@ -68,7 +68,34 @@ kubectl exec -it \
     -- /bin/sh
 ```
 
-Inside the container the db migration can be run with `rails db:migrate`. Everything is setup now and the app can be used
+Inside the container the db migration can be run with `rails db:migrate`. This step will also preload the data from seed.rb. Everything is setup now and the app can be used.
+
+# Api
+
+The cp-matcher service exposes two routes:
+
+1. Status 
+
+This endpoint exposes a status api to check if the api server was started and is running.
+
+```api
+GET /api/v1/status
+```
+
+2. Company Name Finder
+
+The endpoint tries to find a company name inside an image and matches it against a database. The company is returned.
+
+```
+POST /api/v1/ocr/invoice/find_company
+```
+
+**Parameters**
+| Name        | Description                                   | Required  |
+| ------------|:---------------------------------------------:| ---------:|
+| images      | an image to match for a company in png format | true      |
+
+
 
 # Testing
 
