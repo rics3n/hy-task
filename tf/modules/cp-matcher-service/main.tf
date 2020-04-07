@@ -57,7 +57,18 @@ resource "kubernetes_deployment" "cp_matcher" {
             secret_ref {
               name = kubernetes_secret.cp_matcher.metadata.0.name
             }
-          }     
+          }  
+
+          resources {
+            limits {
+              cpu    = "0.5"
+              memory = "500Mi"
+            }
+            requests {
+              cpu    = "0.1"
+              memory = "150Mi"
+            }
+          }
         }
       }
     }

@@ -24,7 +24,17 @@ resource "kubernetes_deployment" "tesseract" {
       spec {
         container {
           image = "mauvilsa/tesseract-recognize:${var.tesseract_version}"
-          name  = "tesseract"          
+          name  = "tesseract"   
+          resources {
+            limits {
+              cpu    = "0.5"
+              memory = "500Mi"
+            }
+            requests {
+              cpu    = "0.1"
+              memory = "100Mi"
+            }
+          }       
         }
       }
     }
